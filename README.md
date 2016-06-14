@@ -1,24 +1,17 @@
-# README
+# Start the application
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Needs NodeJS 6.2.0 and Ruby 2.3.0 installed and Ruby On Rails 5.1.0.alpha
 
-Things you may want to cover:
+```
+bundle install
+```
 
-* Ruby version
+```
+npm install
+```
 
-* System dependencies
+Save all the TypeScripts files in public/app
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```
+rails s
+```
